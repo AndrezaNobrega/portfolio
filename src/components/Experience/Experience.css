@@ -1,50 +1,60 @@
 .experience {
-  padding: 120px 24px;
-}
-
-@media (min-width: 768px) {
-  .experience {
-    padding: 160px 80px;
-  }
+  padding: 80px 24px;
+  color: var(--text-primary);
 }
 
 .experience-title {
   font-family: "Cormorant Garamond", serif;
-  font-size: 2.2rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  text-align: center;
   margin-bottom: 60px;
 }
 
-.experience-item h3 {
-  font-weight: 500;
-  margin-bottom: 8px;
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-.experience-item span {
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  display: block;
-  margin-bottom: 24px;
-}
-
-.experience-item ul {
-  list-style: none;
-  padding: 0;
+.experience-item {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.experience-item li {
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-  line-height: 1.6;
-  position: relative;
-  padding-left: 18px;
+.experience-company {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
 }
 
-.experience-item li::before {
-  content: "—";
-  position: absolute;
-  left: 0;
+.experience-role {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.experience-highlights {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.highlight-icon {
   color: var(--accent);
+  flex-shrink: 0;
 }

@@ -1,31 +1,43 @@
 .contact {
-  padding: 120px 24px;
-  padding-top: 100px;
-}
-
-@media (min-width: 768px) {
-  .contact {
-    padding: 160px 80px;
-  }
+  padding: 80px 24px;
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-title {
   font-family: "Cormorant Garamond", serif;
-  font-size: 2.2rem;
-  margin-bottom: 40px;
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 48px;
+  letter-spacing: 1px;
+}
+
+.contact-line {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
 }
 
 .contact-item {
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-  margin-bottom: 16px;
-}
-
-.contact-item a {
-  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 16px;
   text-decoration: none;
+  color: var(--text-primary);
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  transition: color 0.2s ease;
 }
 
-.contact-item a:hover {
-  text-decoration: underline;
+.contact-item:hover {
+  color: var(--accent);
+}
+
+.contact-icon {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2;
+  color: var(--accent);
 }

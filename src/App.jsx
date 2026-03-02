@@ -16,9 +16,10 @@ const App = () => {
       <main className="main">
         <Hero />
         <About />
-        <Contact />
         <Projects />
         <Experience />
+        <Contact />
+
       </main>
     </div>
   );

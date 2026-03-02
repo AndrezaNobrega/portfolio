@@ -5,27 +5,27 @@ export const translations = {
     contact: "Contact",
     experience: "Experience",
 
-    heroTitle: "Andreza Nóbrega",
-    heroSubtitle: "Full Stack Engineer • React • TypeScript",
-
+    heroTitle: "Andreza Nóbrega Carvalho",
+    heroSubtitle: "Fullstack Engineer | React | React Native | TypeScript",
     heroDescription:
-      "Full Stack Engineer specialized in scalable frontend architecture. I build high-performance systems that reduce technical debt, accelerate delivery cycles and strengthen long-term product growth.",
+      "Full Stack Engineer with 3+ years of experience building scalable web and mobile applications. Specialized in performance optimization, reusable component architecture, and data-driven product improvements.",
 
-    aboutTitle: "About",
+    aboutTitle: "Professional Summary",
     aboutHighlight:
-      "I turn complex requirements into scalable systems that deliver measurable impact.",
+      "I build scalable, high-performance systems that generate measurable impact.",
     aboutText:
-      "Full Stack Engineer with strong expertise in frontend architecture and scalable application design. I structure projects from the ground up, define technical standards and transform complex requirements into organized, maintainable systems. My work has improved performance by up to 30%, reduced recurring UI bugs through component standardization and optimized development workflows to shorten delivery cycles. I focus on clean architecture, performance optimization and engineering decisions that strengthen both product quality and team efficiency.",
+      "I am a Fullstack Engineer experienced in web and mobile development. I contributed to a financial mobile app with 50,000+ downloads (iOS & Android), implementing payment flows, POS integration, multi-factor authentication, and optimizing registration and onboarding. I focus on clean architecture, performance, reusable components, and solving complex requirements with maintainable solutions.",
 
     experienceTitle: "Professional Experience",
     experienceCompany: "Paggue – Payment Fintech",
-    experienceRole: "Frontend Developer | 2023 – present",
+    experienceRole: "Frontend Developer (React | React Native) | 2023 – present",
     experienceHighlights: [
-      "50,000+ mobile app downloads (iOS & Android)",
-      "Reduced usability-related support tickets by ~90%",
-      "Reduced duplicated logic bugs by ~50%",
-      "Optimized registration flow reducing completion time by ~30%",
-      "Implemented payment flows, POS integration and multi-factor authentication",
+      "Developed mobile financial app with 50,000+ downloads (iOS & Android).",
+      "Implemented critical payment flows, POS integration, and multi-factor authentication.",
+      "Designed reusable component architecture and standardized the design system.",
+      "Reduced usability-related support tickets by ~90% via UI refactor.",
+      "Optimized registration flow, reducing completion time by ~30%.",
+      "Led code reviews, performance optimization, and technical decisions from discovery to deployment.",
     ],
 
     projectsList: [
@@ -33,21 +33,22 @@ export const translations = {
         title: "Internet Banking Web",
         tech: "React | TypeScript | MUI | REST APIs",
         description:
-          "Developed a web application integrated with the mobile banking app. Centralized Design System, reusable components, and REST API integration.",
-        links: [
-          { label: "GitHub", url: "#" },
-          { label: "Demo", url: "#" },
-        ],
+          "Developed web application integrated with the mobile banking app. Built reusable components, structured a centralized Design System, and optimized data fetching with route-level caching.",
+        links: [],
       },
       {
         title: "POS Application – Eventz",
         tech: "React Native | POS Integration | Socket Communication",
         description:
-          "POS device application with printing module and real-time ticket validation.",
-        links: [
-          { label: "GitHub", url: "#" },
-          { label: "Demo", url: "#" },
-        ],
+          "Developed POS device app with printing module and real-time ticket validation. Implemented custom ticket layouts and socket communication for live updates.",
+        links: [],
+      },
+      {
+        title: "Eventz Web – Frontend Refactor",
+        tech: "React | TypeScript | REST APIs",
+        description:
+          "Led full frontend refactor: optimized API calls, reduced unnecessary re-renders, improved layout and usability, and enhanced loading performance.",
+        links: [],
       },
     ],
 
@@ -64,27 +65,27 @@ export const translations = {
     contact: "Contato",
     experience: "Experiência",
 
-    heroTitle: "Andreza Nóbrega",
-    heroSubtitle: "Engenheira Full Stack • React • TypeScript",
-
+    heroTitle: "Andreza Nóbrega Carvalho",
+    heroSubtitle: "Engenheira Fullstack | React | React Native | TypeScript",
     heroDescription:
-      "Engenheira Full Stack especializada em arquitetura frontend escalável. Desenvolvo sistemas de alta performance que reduzem dívida técnica, aceleram ciclos de entrega e fortalecem o crescimento sustentável do produto.",
+      "Engenheira Frontend com 3+ anos de experiência em aplicações web e mobile escaláveis. Especializada em otimização de performance, arquitetura de componentes reutilizáveis e melhorias baseadas em dados.",
 
-    aboutTitle: "Sobre",
+    aboutTitle: "Resumo Profissional",
     aboutHighlight:
-      "Transformo requisitos complexos em sistemas escaláveis que geram impacto mensurável.",
+      "Desenvolvo sistemas escaláveis e de alta performance que geram impacto mensurável.",
     aboutText:
-      "Engenheira Full Stack com forte especialização em arquitetura frontend e desenvolvimento de aplicações escaláveis. Estruturo projetos desde a base, defino padrões técnicos e organizo sistemas para manutenção eficiente. Meu trabalho já contribuiu para melhorias de performance em até 30%, redução significativa de bugs recorrentes por meio de padronização de componentes e otimização de fluxo de desenvolvimento para encurtar o tempo de entrega. Atuo com foco em arquitetura limpa, eficiência técnica e qualidade sustentável do produto.",
+      "Sou Engenheira Fullstack com experiência em desenvolvimento web e mobile. Contribuí para um aplicativo financeiro com mais de 50.000 downloads (iOS & Android), implementando fluxos de pagamento, integração POS, autenticação multifator e otimização do fluxo de cadastro e onboarding. Meu foco é arquitetura limpa, componentes reutilizáveis e soluções escaláveis que resolvem requisitos complexos.",
 
     experienceTitle: "Experiência Profissional",
     experienceCompany: "Paggue – Fintech de Pagamentos",
-    experienceRole: "Frontend Developer | 2023 – atualmente",
+    experienceRole: "Frontend Developer (React | React Native) | 2023 – atualmente",
     experienceHighlights: [
-      "Aplicativo mobile com 50.000+ downloads (iOS & Android)",
-      "Redução de ~90% em tickets relacionados à usabilidade",
-      "Redução de ~50% de bugs causados por lógica duplicada",
-      "Otimização do fluxo de cadastro reduzindo tempo de conclusão em ~30%",
-      "Implementação de fluxos de pagamento, integração POS e autenticação multifator",
+      "Aplicativo mobile com 50.000+ downloads (iOS & Android).",
+      "Implementação de fluxos críticos de pagamento, integração POS e autenticação multifator.",
+      "Arquitetura de componentes reutilizáveis e padronização do Design System.",
+      "Redução de ~90% de tickets relacionados à usabilidade via refatoração de UI.",
+      "Otimização do fluxo de cadastro, reduzindo tempo de conclusão em ~30%.",
+      "Participação em revisões de código, otimização de performance e decisões técnicas do discovery ao deploy.",
     ],
 
     projectsList: [
@@ -92,21 +93,22 @@ export const translations = {
         title: "Internet Banking Web",
         tech: "React | TypeScript | MUI | REST APIs",
         description:
-          "Desenvolvimento de aplicação web integrada com aplicativo mobile bancário. Estruturei o Design System centralizado, componentes reutilizáveis e integração com APIs REST.",
-        links: [
-          { label: "GitHub", url: "#" },
-          { label: "Demo", url: "#" },
-        ],
+          "Desenvolvimento de aplicação web integrada com app mobile bancário. Criação de componentes reutilizáveis, estruturação de Design System centralizado e otimização do carregamento de dados.",
+        links: [],
       },
       {
         title: "POS Application – Eventz",
         tech: "React Native | Integração POS | Comunicação Socket",
         description:
-          "Aplicativo de dispositivo POS com módulo de impressão e comunicação em tempo real para validação de tickets.",
-        links: [
-          { label: "GitHub", url: "#" },
-          { label: "Demo", url: "#" },
-        ],
+          "Desenvolvimento de app POS com módulo de impressão e validação de tickets em tempo real. Implementação de layouts personalizados e comunicação via socket para atualizações ao vivo.",
+        links: [],
+      },
+      {
+        title: "Eventz Web – Refatoração Frontend",
+        tech: "React | TypeScript | REST APIs",
+        description:
+          "Liderança na refatoração completa do frontend: otimização de chamadas API, redução de re-renders desnecessários, melhoria de layout e performance de carregamento.",
+        links: [],
       },
     ],
 

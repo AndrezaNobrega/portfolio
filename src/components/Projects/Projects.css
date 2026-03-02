@@ -1,47 +1,71 @@
 .projects {
-  padding: 120px 24px;
-}
-
-@media (min-width: 768px) {
-  .projects {
-    padding: 160px 80px;
-  }
+  padding: 80px 24px;
+  color: var(--text-primary);
 }
 
 .projects-title {
   font-family: "Cormorant Garamond", serif;
-  font-size: 2.2rem;
-  margin-bottom: 60px;
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .project-item {
-  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.project-item h3 {
-  font-weight: 500;
-  margin-bottom: 8px;
+.project-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
 }
 
-.project-item span {
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
   font-size: 0.85rem;
   color: var(--text-secondary);
-  display: block;
-  margin-bottom: 12px;
 }
 
-.project-item p {
+.project-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
   font-size: 0.95rem;
   color: var(--text-secondary);
   line-height: 1.6;
 }
 
+.project-links {
+  margin-top: 8px;
+  display: flex;
+  gap: 16px;
+}
+
 .project-links a {
-  color: var(--accent);
   text-decoration: none;
-  margin-right: 16px;
+  font-weight: 500;
+  color: var(--accent);
+  transition: color 0.2s ease;
 }
 
 .project-links a:hover {
-  text-decoration: underline;
+  color: var(--text-primary);
 }

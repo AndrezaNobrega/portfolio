@@ -17,8 +17,9 @@ const Header = () => {
       <nav className="nav">
         <a href="#about">{t.about}</a>
         <a href="#projects">{t.projects}</a>
-        <a href="#contact">{t.contact}</a>
         <a href="#experience">{t.experience}</a>
+        <a href="#contact">{t.contact}</a>
+
 
       </nav>
 
