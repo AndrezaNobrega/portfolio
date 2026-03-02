@@ -1,0 +1,153 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--bg-secondary);
+  backdrop-filter: blur(6px);
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .header {
+    padding: 0 80px;
+  }
+}
+
+.logo {
+  font-weight: 600;
+  letter-spacing: 6px;
+  font-size: 0.9rem;
+  opacity: 0.85;
+  text-transform: uppercase;
+}
+
+
+.nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+    gap: 40px;
+  }
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background: var(--accent);
+  transition: 0.3s ease;
+}
+
+.nav a:hover {
+  color: var(--text-primary);
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+/* ACTIONS */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .header-actions {
+    gap: 16px;
+  }
+}
+
+/* THEME BUTTON */
+.theme-toggle {
+  border: 1px solid var(--text-secondary);
+  color: var(--text-primary);
+  padding: 4px 12px;
+  font-size: 0.65rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .theme-toggle {
+    padding: 6px 16px;
+    font-size: 0.75rem;
+  }
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* LANGUAGE TOGGLE */
+.lang-toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 60px;
+  height: 24px;
+  border: 1px solid var(--text-secondary);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.65rem;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .lang-toggle {
+    width: 70px;
+    height: 28px;
+    font-size: 0.7rem;
+  }
+}
+
+.lang-toggle span {
+  flex: 1;
+  text-align: center;
+  z-index: 2;
+  transition: 0.3s ease;
+  color: var(--text-secondary);
+}
+
+.lang-toggle span.active {
+  color: var(--bg-primary);
+}
+
+.lang-toggle .slider {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: var(--accent);
+  transition: 0.3s ease;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.lang-toggle .slider.en {
+  left: 0;
+}
+
+.lang-toggle .slider.pt {
+  left: 50%;
+}

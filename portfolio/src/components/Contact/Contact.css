@@ -1,0 +1,31 @@
+.contact {
+  padding: 120px 24px;
+  padding-top: 100px;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    padding: 160px 80px;
+  }
+}
+
+.contact-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+}
+
+.contact-item {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.contact-item a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}

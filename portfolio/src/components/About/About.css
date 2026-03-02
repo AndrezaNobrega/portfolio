@@ -1,0 +1,44 @@
+.about {
+    padding: 100px 24px;
+    scroll-margin-top: 100px;
+  }
+  
+  @media (min-width: 768px) {
+    .about {
+      padding: 140px 80px;
+    }
+  }
+  
+  .about-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .about-title {
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 500;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .about-highlight {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: var(--text-primary);
+  }
+  
+  .about-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    max-width: 700px;
+  }
