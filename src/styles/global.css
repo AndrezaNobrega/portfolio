@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  scroll-behavior: smooth;
+}
+
+button {
+  font-family: inherit;
+  background: none;
+  border: none;
+}
+.logo {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  letter-spacing: 6px;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,23 @@
+:root {
+  --bg-primary: #0e0e11;
+  --bg-secondary: #16161a;
+  --text-primary: #e8e6e3;
+  --text-secondary: #8b8a88;
+  --accent: #6b0f1a;
+}
+
+.light {
+  --bg-primary: #f5f3f1;
+  --bg-secondary: #e6e3e0;
+  --text-primary: #1a1a1d;
+  --text-secondary: #555555;
+  --accent: #6b0f1a;
+}
+
+.dark {
+  --bg-primary: #0e0e11;
+  --bg-secondary: #16161a;
+  --text-primary: #e8e6e3;
+  --text-secondary: #8b8a88;
+  --accent: #6b0f1a;
+}

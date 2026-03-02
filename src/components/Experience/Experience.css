@@ -1,0 +1,50 @@
+.experience {
+  padding: 120px 24px;
+}
+
+@media (min-width: 768px) {
+  .experience {
+    padding: 160px 80px;
+  }
+}
+
+.experience-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  margin-bottom: 60px;
+}
+
+.experience-item h3 {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.experience-item span {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  display: block;
+  margin-bottom: 24px;
+}
+
+.experience-item ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.experience-item li {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  position: relative;
+  padding-left: 18px;
+}
+
+.experience-item li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
