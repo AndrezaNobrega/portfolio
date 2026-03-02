@@ -1,16 +1,40 @@
-# React + Vite
+# Portfolio Profissional – Andreza Nóbrega
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu **portfolio profissional**, criado para apresentar meus projetos, experiência e habilidades como **Engenheira Fullstack**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Tecnologias Utilizadas
 
-## React Compiler
+- **Frontend:** React, React Hooks, Context API  
+- **Estilização:** CSS, Styled Components, Material UI (MUI)  
+- **Configuração do Projeto:** Vite  
+- **Internacionalização (i18n):** Tradução entre Português e Inglês  
+- **Componentes:** Design System reutilizável, animações sutis e interatividade  
+- **Versionamento:** Git, GitHub  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📝 Sobre o Portfolio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este portfolio inclui seções principais:  
+
+1. **Hero:** Introdução com nome, profissão e breve descrição.  
+2. **Sobre (About):** Experiência, habilidades e resumo profissional.  
+3. **Projetos (Projects):** Projetos destacados com tecnologias, links para GitHub e demos.  
+4. **Experiência (Experience):** Experiência profissional com principais realizações.  
+5. **Contato (Contact):** Email, telefone, LinkedIn e localização.  
+
+O objetivo é reforçar minha presença como **desenvolvedora Fullstack**, destacando minhas habilidades em frontend, mobile (React Native) e integração de sistemas.
+
+---
+
+## 🌐 Funcionalidades
+
+- Layout **responsivo** para desktop e mobile  
+- Navegação por **scroll** suave para cada seção  
+- Links de projetos abrem em nova aba, quando disponíveis  
+- Suporte a **tradução (PT/EN)**  
+
+---
+
